@@ -31,6 +31,7 @@ export default function InputShoes() {
 
     const handleCancel = () => {
         dispatch(cancelEditItem())
+        setName('')
     }
     const handleOk = () => {
         if (id !== '' && name !== '') {
